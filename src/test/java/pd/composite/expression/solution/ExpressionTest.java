@@ -5,12 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import pd.composite.expression.solution.Dividir;
-import pd.composite.expression.solution.Expresion;
-import pd.composite.expression.solution.Multiplicar;
-import pd.composite.expression.solution.Numero;
-import pd.composite.expression.solution.Restar;
-import pd.composite.expression.solution.Sumar;
+import pd.composite.expression.*;
 
 public class ExpressionTest {
     private Expresion exp1, exp2, exp3, exp4, exp5, exp6;
