@@ -1,4 +1,11 @@
 package rest.data.models.dao.memory;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import rest.business.models.GenericDao;
+
 public abstract class GenericMemoryDao<T, ID> implements GenericDao<T, ID> {
 
     private Map<ID, T> map;

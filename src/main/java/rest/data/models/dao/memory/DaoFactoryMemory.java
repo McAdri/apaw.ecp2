@@ -1,4 +1,9 @@
 package rest.data.models.dao.memory;
+
+import rest.business.models.DaoFactory;
+import rest.business.models.ThemeDao;
+import rest.business.models.VoteDao;
+
 public class DaoFactoryMemory extends DaoFactory {
 
     private ThemeDao themeDao;

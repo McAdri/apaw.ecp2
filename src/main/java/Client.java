@@ -1,3 +1,6 @@
+import web.http.HttpRequest;
+import web.http.HttpResponse;
+
 public class Client {
 
     public HttpResponse send(HttpRequest request) {

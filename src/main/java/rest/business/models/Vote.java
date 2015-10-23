@@ -10,9 +10,9 @@ public class Vote {
     public Vote() {
     }
 
-    public Vote(int id, int vote, Theme theme) {
+    public Vote(int id, int d, Theme theme) {
         this.id = id;
-        this.vote = vote;
+        this.vote = d;
         this.theme = theme;
     }
 

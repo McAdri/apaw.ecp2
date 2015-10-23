@@ -1,4 +1,8 @@
 package web.presentation.frontController;
+
+import web.http.HttpRequest;
+import web.http.HttpResponse;
+
 public class FrontController {
     private Dispatcher dispatcher;
 
